@@ -6,6 +6,7 @@ import viteLogo from './assets/vite.svg';
 import { useQueryCall, useUpdateCall } from '@ic-reactor/react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { record } from './declarations/backend';
 
 function App(){
 let arr=[{
@@ -13,8 +14,8 @@ let arr=[{
 card_title:"",
 description:"Some quick example text to build on the card title and make up the bulk of the card\'s content."
 }];
-
-  return (
+console.log(record)
+return (
     <div className="App w-100 bg-white">
       {
 arr.map((text,i)=>{
