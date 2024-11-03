@@ -6,9 +6,10 @@ import viteLogo from './assets/vite.svg';
 import { useQueryCall, useUpdateCall } from '@ic-reactor/react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { record } from './declarations/backend';
+import { backend } from './declarations/backend';
 
 function App(){
+  
 let arr=[{
   index:"",
 card_title:"",
